@@ -86,3 +86,5 @@ task 설정 -> 원하는 것 정하기 -> 데이터 탐색(단일 자료/다량 
 ```
 ERD (Entity Relationship Diagram) : DB 구조를 한 눈에 보기 위해 사용
 ```
+
+<img width="959" alt="image 1" src="https://github.com/user-attachments/assets/681428fd-2f6d-403d-a181-0dea9467e578">
