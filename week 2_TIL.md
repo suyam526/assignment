@@ -60,4 +60,26 @@ SELECT
 FROM basic.trainer
 ```
 
+```
+-- 4번. trainer의 테이블에서 id가 3인 트레이너의 name, age, hometown을 출력하는 쿼리를 작성해주세요
+
+SELECT
+  name,
+  age,
+  hometown
+FROM basic.trainer
+WHERE 
+  id = 3
+```
+
+```
+-- 5. pokemon 테이블에서 "피카츄"의 공격력과 체력을 확인할 수 있는 쿼리를 작성해주세요
+SELECT
+  attack,
+  defense
+FROM basic.pokemon
+WHERE
+  kor_name = "피카츄"
+```
+
 # 3. 데이터 탐색 : 요약(집계,그룹화)
