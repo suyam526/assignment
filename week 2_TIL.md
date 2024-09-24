@@ -76,7 +76,7 @@ WHERE
 -- 5. pokemon 테이블에서 "피카츄"의 공격력과 체력을 확인할 수 있는 쿼리를 작성해주세요
 SELECT
   attack,
-  defense
+  HP
 FROM basic.pokemon
 WHERE
   kor_name = "피카츄"
