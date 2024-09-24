@@ -123,3 +123,21 @@ GROUP BY 컬럼1, 컬럼2
 HAVING
   col1_count > 3
 ```
+
+## 3-1. 예제
+```
+1. pokemon 테이블에 있는 포켓몬 수를 구하는 쿼리를 작성해주세요
+SELECT
+  COUNT(id) AS cnt
+FROM basic.pokemon
+```
+
+```
+2. 포켓몬 수가 세대별로 얼마나 있는지 알 수 있는 쿼리를 작성해주세요
+SELECT
+  generation
+  COUNT(id) AS cnt
+FROM basic.pokemon
+GROUP BY
+  generation
+```
