@@ -82,12 +82,44 @@ WHERE
   kor_name = "피카츄"
 ```
 
-# 3. 데이터 탐색 : 요약(집계,그룹화)
+# 3. 집계 (GROUP BY + HAVING + SUM/COUNT)
 ```
 * 집계: 모아서(=그룹화해서) 계산한다
   * 계산 = 더하기/빼기, 최대값/최소값, 평균, 갯수 세기
 
 * 집계 (GROUP BY)
+특정 컬럼을 기준으로 모으면서 다른 컬럼에선 집계 가능
+
+* 코드
+SELECT
+  집계할_컬럼1,
+  집계 함수(COUNT, MAX, MIN 등)
+FROM Table
+GROUP BY
+  집계할_컬럼1
+
+=> 집계할 컬럼을 SELECT에 명시하고, 그 컬럼을 꼭!! GROUP BY에 작성
+
+```
 
 
+```
+* DISTINCT : 고유값을 알고 싶은 경우
+SELECT
+  집계할 컬럼,
+  COUNT(DISTINCT count할-컬럼)
+FROM table
+GROUP BY
+  집계할 컬럼
+```
+
+```
+* GROUP BY 후 조건을 설정하고 싶은 경우 : HAVING
+SELECT
+  컬럼1, 컬럼2,
+  COUNT(컬럼1) AS col1_count
+FROM <table>
+GROUP BY 컬럼1, 컬럼2
+HAVING
+  col1_count > 3
 ```
