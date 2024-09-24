@@ -28,3 +28,5 @@ WHERE
 
 <img width="473" alt="1" src="https://github.com/user-attachments/assets/50a76048-0ce5-4e1c-a3a4-79b782ccb11e">
 
+
+# 3. 데이터 탐색 : 요약(집계,그룹화)
