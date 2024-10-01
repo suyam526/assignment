@@ -18,3 +18,5 @@
     (type2 IS NULL) or (type1 = 0)
 
 <img width="687" alt="image" src="https://github.com/user-attachments/assets/b3e8de52-4432-4c90-829f-6ba8f4e173ca">
+<img width="896" alt="image" src="https://github.com/user-attachments/assets/89bf6e33-66ea-4083-8b1d-3f98fc8105b3">
+
