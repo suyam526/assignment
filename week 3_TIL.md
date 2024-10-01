@@ -42,3 +42,8 @@
 
 <img width="753" alt="image" src="https://github.com/user-attachments/assets/dad8d58a-a9c0-4db6-bd11-1bac6fbc021d">
 
+
+## 2-9. 연습문제
+<img width="752" alt="image" src="https://github.com/user-attachments/assets/eadbf422-7eee-45b4-b0e1-f624c004419a">
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/e2d28679-34a9-40bf-8619-791e9036ce67">
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/f9a62d1b-ffd3-4a42-a654-12ffce49c232">
