@@ -31,4 +31,14 @@
 <img width="271" alt="image" src="https://github.com/user-attachments/assets/53f6c44b-a244-4bb4-b829-4a18f0fd48f9">
 <br/>
 
+<img width="752" alt="image" src="https://github.com/user-attachments/assets/3c422e03-4e26-4f0f-a73b-37b7bde4061a">
+
+
+## 2-8. 연습문제
+<img width="757" alt="image" src="https://github.com/user-attachments/assets/b5fea5ae-f6e6-4b43-b5e3-01812828fe1a">
+<img width="235" alt="image" src="https://github.com/user-attachments/assets/9611872f-5af0-4790-81dc-3c4162d30c80">
+
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/1388828b-71c4-4699-9b7a-a6519c10b0af">
+
+<img width="753" alt="image" src="https://github.com/user-attachments/assets/dad8d58a-a9c0-4db6-bd11-1bac6fbc021d">
 
