@@ -95,8 +95,8 @@
    -> 오류 메세지 읽고 해석
    -> 구글링/공식 문서/ChatGPT
 - SELECT list must not be empty at [10:1]
-- Number of arguments does not match for aggregate function COUNT (집계 함수 COUNT의 인자 수가 일치하지 않습니다)
+- Number of arguments does not match for aggregate function COUNT (집계 함수 COUNT의 인자 수가 일치하지 않습니다) <br/>
   COUNT 함수에는 1개만 들어갈 수 있음!!!
-- Syntax error : Expected end of input but got keyword SELECT (입력이 끝날 것으로 예상되었지만 SELECT 키워드가 입력되었습니다)
-  SELECT 근처 확인하기, 하나의 쿼리엔 SELECT가 1개만 있어야 함!!!
-  혹은 쿼리가 끝나는 부분에 ; 붙이고 실행할 부분만 드래그 앤 드랍해서 실행하기
+- Syntax error : Expected end of input but got keyword SELECT (입력이 끝날 것으로 예상되었지만 SELECT 키워드가 입력되었습니다) <br/>
+  SELECT 근처 확인하기, 하나의 쿼리엔 SELECT가 1개만 있어야 함!!! <br/>
+  혹은 쿼리가 끝나는 부분에 ; 붙이고 실행할 부분만 드래그 앤 드랍해서 실행하기행하기
