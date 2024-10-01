@@ -1,4 +1,4 @@
-## 2-6. 연습 문제 
+## 2-6. 연습 문제 (1)
 
 ### NULL 
 - 0이랑 다르고, ""과도 다름 => 값이 없는 상태
@@ -21,8 +21,9 @@
 <img width="896" alt="image" src="https://github.com/user-attachments/assets/89bf6e33-66ea-4083-8b1d-3f98fc8105b3">
 <img width="894" alt="image" src="https://github.com/user-attachments/assets/3b7f331e-daa4-4003-8b8c-637e3ac741c4">
 
+-----------
 
-## 2-7. 연습문제
+## 2-6. 연습문제 (2)
 ### WHERE와 HAVING
 - WHERE : 원본 데이터 FROM절에 있는 데이터에 조건을 설정하고 싶은 경우
 - HAVING : GROUP BY와 함께 집계 결과에 조건을 설정하고 싶은 경우 (집계 후)
@@ -33,8 +34,9 @@
 
 <img width="752" alt="image" src="https://github.com/user-attachments/assets/3c422e03-4e26-4f0f-a73b-37b7bde4061a">
 
+---------
 
-## 2-8. 연습문제
+## 2-6. 연습문제 (3)
 <img width="757" alt="image" src="https://github.com/user-attachments/assets/b5fea5ae-f6e6-4b43-b5e3-01812828fe1a">
 <img width="235" alt="image" src="https://github.com/user-attachments/assets/9611872f-5af0-4790-81dc-3c4162d30c80">
 
@@ -42,18 +44,46 @@
 
 <img width="753" alt="image" src="https://github.com/user-attachments/assets/dad8d58a-a9c0-4db6-bd11-1bac6fbc021d">
 
+--------
 
-## 2-9. 연습문제
+## 2-6. 연습문제 (4)
 <img width="752" alt="image" src="https://github.com/user-attachments/assets/eadbf422-7eee-45b4-b0e1-f624c004419a">
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/e2d28679-34a9-40bf-8619-791e9036ce67">
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/f9a62d1b-ffd3-4a42-a654-12ffce49c232">
 
-## 2-10. 연습문제
+--------
+
+## 2-6. 연습문제 (5)
 <img width="752" alt="image" src="https://github.com/user-attachments/assets/a14aacc2-9d53-47bf-aaed-e640fdd409f9">
 <img width="755" alt="image" src="https://github.com/user-attachments/assets/c04ac566-55f8-4354-b7c6-bfa456199d10">
 <img width="751" alt="image" src="https://github.com/user-attachments/assets/c9ae9596-c4d9-4b89-a7c8-784b4be011c9">
 <img width="754" alt="image" src="https://github.com/user-attachments/assets/749bb11c-82d7-435d-b2d5-24363bb9f968">
 <img width="752" alt="image" src="https://github.com/user-attachments/assets/9a017eaa-d3e3-4639-bc14-9c1836a4c6e2">
 
-## 2-11. 정리
+------
+
+## 2-7. 정리
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/6b1ac73e-34f4-4c98-a1df-00846dec0122">
+-------
+
+## 2-8. 새로운 집계 함수
+* GROUP BY ALL : GROUP BY할 함수를 굳이 명시하지 않아도 이 함수를 쓰면 알아서 추측해서 실행시켜줌
+
+-------
+
+# 3. SQL 쿼리 잘 작성하기
+## 3-1. 쿼리 작성 템플릿 & 생산성 도구
+* 템플릿
+  #쿼리를 작성하는 목표, 확인할 지표 : 정의
+  #쿼리 계산 방법 :
+  #데이터의 기간 :
+  #사용할 테이블 :
+  #Join Key :
+  #데이터 특징 : 어떤 컬럼은 어떤 특징을 가지고 있고~
+
+  SELECT
+
+  FROM
+  WHERE
+
+## 3-2. 
