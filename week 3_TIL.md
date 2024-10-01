@@ -47,3 +47,13 @@
 <img width="752" alt="image" src="https://github.com/user-attachments/assets/eadbf422-7eee-45b4-b0e1-f624c004419a">
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/e2d28679-34a9-40bf-8619-791e9036ce67">
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/f9a62d1b-ffd3-4a42-a654-12ffce49c232">
+
+## 2-10. 연습문제
+<img width="752" alt="image" src="https://github.com/user-attachments/assets/a14aacc2-9d53-47bf-aaed-e640fdd409f9">
+<img width="755" alt="image" src="https://github.com/user-attachments/assets/c04ac566-55f8-4354-b7c6-bfa456199d10">
+<img width="751" alt="image" src="https://github.com/user-attachments/assets/c9ae9596-c4d9-4b89-a7c8-784b4be011c9">
+<img width="754" alt="image" src="https://github.com/user-attachments/assets/749bb11c-82d7-435d-b2d5-24363bb9f968">
+<img width="752" alt="image" src="https://github.com/user-attachments/assets/9a017eaa-d3e3-4639-bc14-9c1836a4c6e2">
+
+## 2-11. 정리
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/6b1ac73e-34f4-4c98-a1df-00846dec0122">
