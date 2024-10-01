@@ -86,4 +86,13 @@
   FROM
   WHERE
 
-## 3-2. 
+-> 이 템플릿을 Espanso에 넣어서 trigger 단어 입력했을 때 자동으로 생성되도록
+------
+## 3-2. 오류 디버깅 방법
+
+* syntax error (문법 오류)
+   -> 오류 메세지 읽고 해석
+   -> 구글링/공식 문서/ChatGPT
+- SELECT list must not be empty at [10:1]
+- Number of arguments does not match for aggregate function COUNT (집계 함수 COUNT의 인자 수가 일치하지 않습니다)
+  COUNT 함수에는 1개만 들어갈 수 있음!!!
