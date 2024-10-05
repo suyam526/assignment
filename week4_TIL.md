@@ -29,12 +29,10 @@ SELECT
     CAST(1 AS STRING)  #숫자 1을 문자 1로 변경
 
 > WHAT IF ...
-<br/>
-
 SELECT
     CAST("카일스쿨" AS INT64)
-=> 문자열은 숫자로 변경할 수 없기 때문에 오류 뜸
-<br/>
+=> 문자열은 숫자로 변경할 수 없기 때문에 오류 뜸<br/>
+
 
 ### 이럴 때 더 안전하게 데이터 타입 변경하는 법 : SAFE_CAST
 - SAFE_가 붙은 함수는 변환이 실패할 경우 NULL 반환
@@ -61,13 +59,15 @@ TIP. 나누기할 때 x/y 대신 SAFE_DIVIDE 함수 사용하기
     - 결과가 '배열(ARRAY type)'로 나옴.
 
     ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%205.png)
-    
-        ```
-        ARRAY type
-        - 여러 가지 데이터를 저장할 수 있는 자료 구조 
-        - 사진처럼 1개의 행에 여러 개의 값이 저장되어 있으면 배열이구나~ 생각하면 됨(<-> 배열 아니면 1개의 행에 1개의 값, '나'는 행 2에, '다'는 행 3에... 이런식으로 저장되어 있을 것)
-        ```
-        ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%209.png)
+
+```
+ARRAY type
+    - 여러 가지 데이터를 저장할 수 있는 자료 구조 
+    - 사진처럼 1개의 행에 여러 개의 값이 저장되어 있으면 배열이구나~ 생각하면 됨(<-> 배열 아니면 1개의 행에 1개의 값, '나'는 행 2에, '다'는 행 3에... 이런식으로 저장되어 있을 것)
+```
+
+![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%209.png)
+
 
 - REPLACE
     - REPLACE(문자열 원본, 찾을 단어, 바꿀 단어)
