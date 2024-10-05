@@ -69,16 +69,20 @@ ARRAY type
 ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%209.png)
 
 
-- REPLACE
+- **REPLACE**
     - REPLACE(문자열 원본, 찾을 단어, 바꿀 단어)
     ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%206.png)
 
-- TRIM
+- **TRIM**
     - TRIM(문자열 원본, 자를 단어)
     ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%207.png)
 
-- UPPER
+- **UPPER**
     - UPPER(문자열 원본)
     ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%208.png)
 
+----
+## 4-4. 날짜 및 시간 데이터
+- **핵심**
+![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%210.png)
           
