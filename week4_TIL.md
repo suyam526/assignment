@@ -29,6 +29,8 @@ SELECT
     CAST(1 AS STRING)  #숫자 1을 문자 1로 변경
 
 > WHAT IF ...
+<br/>
+
 SELECT
     CAST("카일스쿨" AS INT64)
 => 문자열은 숫자로 변경할 수 없기 때문에 오류 뜸
