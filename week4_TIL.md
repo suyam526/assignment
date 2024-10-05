@@ -37,18 +37,21 @@ SELECT
 <br/>
 
 ### 이럴 때 더 안전하게 데이터 타입 변경하는 법 : SAFE_CAST
-  SAFE_가 붙은 함수는 변환이 실패할 경우 NULL 반환
+- SAFE_가 붙은 함수는 변환이 실패할 경우 NULL 반환
 <br/>
 
 ### 수학 함수
 - 수학 연산(평균, 표준편차, 코사인 등)이 존재
 
 ```
-**TIP**. 나누기할 때 x/y 대신 SAFE_DIVIDE 함수 사용하기
+TIP. 나누기할 때 x/y 대신 SAFE_DIVIDE 함수 사용하기
          x/y 쓰면 x, y 중 하나라도 0인 경우 그냥 나누면 zero error 발생 => SAFE_DIVIDE 함수 써서 NULL 값으로 나오게 하기
     EX. SAFE_DIVIDE(x,y)
 ```
 
+-------
+## 4-3. 문자열 함수
+- 
 
 
 
