@@ -16,7 +16,7 @@
 # 4. 데이터 탐색 - 변환
 
 ## 4-1. 
-![image](../assignment/image/week4/SQL 1.png)
+![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%201.png)
 
 ## 4-2. 
 - 데이터 타입 
@@ -51,8 +51,19 @@ TIP. 나누기할 때 x/y 대신 SAFE_DIVIDE 함수 사용하기
 
 -------
 ## 4-3. 문자열 함수
-- 
+- SPLIT
+    - SPLIT(문자열 원본, 나눌 기준이 되는 문자)
+    - 결과가 '배열(ARRAY type)'로 나옴.
+        - ARRAY type: 여러 가지 데이터를 저장할 수 있는 자료 구조 
+        사진처럼 1개의 행에 여러 개의 값이 저장되어 있으면 배열이구나~ 생각하면 됨(<-> 배열 아니면 1개의 행에 1개의 값, '나'는 행 2에, '다'는 행 3에... 이런식으로 저장되어 있을 것)
 
+- REPLACE
+    - REPLACE(문자열 원본, 찾을 단어, 바꿀 단어)
 
+- TRIM
+    - TRIM(문자열 원본, 자를 단어)
+
+- UPPER
+    - UPPER(문자열 원본)
 
           
