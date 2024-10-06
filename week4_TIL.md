@@ -93,47 +93,47 @@ ARRAY type
     - 일반적인 시간과 개발 시간이 다르기 때문에 알아야함
     <br/>
 
-- **시간 데이터 다루기**
-    - 세부적으로 나누면 DATE, DATETIME, TIMESTAMP 등
-    1. DATE : DATE만 표시하는 데이터 (시간/분초 X)
+### **시간 데이터 다루기**
+- 세부적으로 나누면 **DATE, DATETIME, TIMESTAMP 등**
+    1. DATE : **DATE만** 표시하는 데이터 (시간/분초 X)
         EX. 2023-12-31
-    2. DATETIME : DATE와 TIME까지 표시, TIMEZONE 정보 X
+    2. DATETIME : **DATE와 TIME까지** 표시, TIMEZONE 정보 X
         EX. 2023-12-31 14:00:00
-    3. TIME : 시간만 표시하는 데이터, 날짜 X
+    3. TIME : **시간만** 표시하는 데이터, 날짜 X
         EX. 14:00:00
 <br/>
 
-    - **TIMEZONE** ***중요!
+    - **TIMEZONE** ***중요!!!
     1. GMT : Greewich Mean Time
     2. UTC : 국제적인 표준 시간 (한국 시간 : UTC+9) -> 요즘에 많이 활용
 <br/>
 
-    > 타임존이 존재한다 = 특정 지역의 표준 시간대
+> 타임존이 존재한다 = 특정 지역의 표준 시간대
 
-    - **TIMESTAMP**
-        - UTC부터 경과한 시간을 나타내는 값
+- **TIMESTAMP**
+    - UTC부터 경과한 시간을 나타내는 값
 
-    - **millisecond, microsecond**
-        - **millisecond(ms)**
-            - 시간의 단위, 천 분의 1초 (1000ms = 1초)
-            - 우리가 아는 초보다 더 짧은 시간 단위
-            - 빠른 반응이 필요한 분야에서 사용 (초 단위보다 더 정밀한게 필요할 때)
+- **millisecond, microsecond**
+    - **millisecond(ms)**
+        - 시간의 단위, 천 분의 1초 (1000ms = 1초)
+        - 우리가 아는 초보다 더 짧은 시간 단위
+        - 빠른 반응이 필요한 분야에서 사용 (초 단위보다 더 정밀한게 필요할 때)
             - millisecond -> timestamp -> datetime 순으로 변경해서 사용
         
-        - **microsecond(μs)**
-            - 1/1,000ms
-        ![SQL 11](./image/week4/SQL11.png)
-        <br/>
-        ```
-        이 쿼리는 잘못 짠 쿼리ㅠ.ㅠ
-        Timestamp 쓸 때는 반드시 타임존을 넣어서 쓰자
-        (특정 지역의 표준 시간대를 고려하자! 아니면 시차 때문에 오차 생길 수 있음)
-        ```
-        ![SQL 12](./image/week4/SQL12.png)
-        ```
-        이렇게 써야된다.
-        Timestamp -> Datetime 변환할 때 타임존을 고려해서 datetime_value_asia 이런식으로 써줘야 타임존에 맞게 올바른 시간 데이터 얻을 수 있음
-        ```
+- **microsecond(μs)**
+    - 1/1,000ms
+    ![SQL 11](./image/week4/SQL11.png)
+    <br/>
+    ```
+    이 쿼리는 잘못 짠 쿼리ㅠ.ㅠ
+    Timestamp 쓸 때는 반드시 타임존을 넣어서 쓰자
+    (특정 지역의 표준 시간대를 고려하자! 아니면 시차 때문에 오차 생길 수 있음)
+    ```
+    ![SQL 12](./image/week4/SQL12.png)
+    ```
+    이렇게 써야된다.
+    Timestamp -> Datetime 변환할 때 타임존을 고려해서 datetime_value_asia 이런식으로 써줘야 타임존에 맞게 올바른 시간 데이터 얻을 수 있음
+    ```
 
 - **TIMESTAMP와 DATETIME 비교**
     - CURRENT_TIMESTAMP 함수 : 현재 TIMESTAMP를 알려줌
