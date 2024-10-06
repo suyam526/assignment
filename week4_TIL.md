@@ -124,16 +124,16 @@ ARRAY type
     - 1/1,000ms
     ![SQL 11](./image/week4/SQL11.png)
     <br/>
-    ```
-    이 쿼리는 잘못 짠 쿼리ㅠ.ㅠ
-    Timestamp 쓸 때는 반드시 타임존을 넣어서 쓰자
-    (특정 지역의 표준 시간대를 고려하자! 아니면 시차 때문에 오차 생길 수 있음)
-    ```
-    ![SQL 12](./image/week4/SQL12.png)
-    ```
-    이렇게 써야된다.
-    Timestamp -> Datetime 변환할 때 타임존을 고려해서 datetime_value_asia 이런식으로 써줘야 타임존에 맞게 올바른 시간 데이터 얻을 수 있음
-    ```
+```
+이 쿼리는 잘못 짠 쿼리ㅠ.ㅠ
+Timestamp 쓸 때는 반드시 타임존을 넣어서 쓰자
+(특정 지역의 표준 시간대를 고려하자! 아니면 시차 때문에 오차 생길 수 있음)
+```
+![SQL 12](./image/week4/SQL12.png)
+```
+이렇게 써야된다.
+Timestamp -> Datetime 변환할 때 타임존을 고려해서 datetime_value_asia 이런식으로 써줘야 타임존에 맞게 올바른 시간 데이터 얻을 수 있음
+```
 
 - **TIMESTAMP와 DATETIME 비교**
     - CURRENT_TIMESTAMP 함수 : 현재 TIMESTAMP를 알려줌
