@@ -16,6 +16,7 @@
 # 4. 데이터 탐색 - 변환
 
 ## 4-1. 
+![image](../image/week4/SQL%1.png)
 ![image](https://github.com/suyam526/assignment/blob/main/image/week4/SQL%201.png)
 
 ## 4-2. 
