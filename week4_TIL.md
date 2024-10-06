@@ -80,6 +80,7 @@ ARRAY type
 - **TRIM**
     - TRIM(문자열 원본, 자를 단어)
     <br/>
+    
     ![SQL 7](./image/week4/SQL%207.png)
 
 - **UPPER**
@@ -104,9 +105,9 @@ ARRAY type
         EX. 14:00:00
 <br/>
 
-    - **TIMEZONE** ***중요!!!
-    1. GMT : Greewich Mean Time
-    2. UTC : 국제적인 표준 시간 (한국 시간 : UTC+9) -> 요즘에 많이 활용
+- **TIMEZONE** ***중요!!!
+1. GMT : Greewich Mean Time
+2. UTC : 국제적인 표준 시간 (한국 시간 : UTC+9) -> 요즘에 많이 활용
 <br/>
 
 > 타임존이 존재한다 = 특정 지역의 표준 시간대
@@ -124,7 +125,7 @@ ARRAY type
 - **microsecond(μs)**
     - 1/1,000ms
     ![SQL 11](./image/week4/SQL11.png)
-    <br/>
+    
 ```
 이 쿼리는 잘못 짠 쿼리ㅠ.ㅠ
 Timestamp 쓸 때는 반드시 타임존을 넣어서 쓰자
@@ -139,5 +140,6 @@ Timestamp -> Datetime 변환할 때 타임존을 고려해서 datetime_value_asi
 - **TIMESTAMP와 DATETIME 비교**
     - CURRENT_TIMESTAMP 함수 : 현재 TIMESTAMP를 알려줌
     <br/>
+
     ![SQL 13](./image/week4/SQL13.png)
         
