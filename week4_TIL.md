@@ -54,6 +54,8 @@ TIP. 나누기할 때 x/y 대신 SAFE_DIVIDE 함수 사용하기
 ![SQL 3](./image/week4/SQL%203.png)
 
 - **CONCAT**
+<br/>
+
 ![SQL 4](./image/week4/SQL%204.png)
 
 - **SPLIT**
