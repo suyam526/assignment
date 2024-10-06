@@ -80,7 +80,7 @@ ARRAY type
 - **TRIM**
     - TRIM(문자열 원본, 자를 단어)
     <br/>
-    
+
     ![SQL 7](./image/week4/SQL%207.png)
 
 - **UPPER**
@@ -106,8 +106,8 @@ ARRAY type
 <br/>
 
 - **TIMEZONE** ***중요!!!
-1. GMT : Greewich Mean Time
-2. UTC : 국제적인 표준 시간 (한국 시간 : UTC+9) -> 요즘에 많이 활용
+    1. GMT  : Greewich Mean Time
+    2. UTC : 국제적인 표준 시간 (한국 시간 : UTC+9) -> 요즘에 많이 활용
 <br/>
 
 > 타임존이 존재한다 = 특정 지역의 표준 시간대
