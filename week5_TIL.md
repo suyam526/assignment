@@ -41,6 +41,7 @@
     ![SQL5](./image/week5/SQL5.png) <br/>
     *큰 값을 앞자리에 둬야 양수로 반환
 
+<br/>
 
 - 정리
 ![SQL6](./image/week5/SQL6.png) <br/>
