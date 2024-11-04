@@ -48,3 +48,15 @@
 ![SQL8](./image/week5/SQL8.png) <br/>
 ![SQL9](./image/week5/SQL9.png) <br/>
 
+
+4-5, 4-6. 문제 풀이
+- 1번
+![SQL10](./image/week5/SQL10.png) <br/>
+![SQL11](./image/week5/SQL11.png) <br/>
+
+- 2번
+![SQL12](./image/week5/SQL12.png) <br/>
+![SQL13](./image/week5/SQL13.png) <br/>
+
+- 3번
+![SQL14](./image/week5/SQL14.png) <br/>
