@@ -131,3 +131,8 @@ SELECT
 ![SQL23](./image/week5/SQL23.png) <br/>
 ![SQL24](./image/week5/SQL24.png) <br/>
 ![SQL25](./image/week5/SQL25.png) <br/>
+
+## 4-9. BigQuery 공식 문서 확인하는 법
+- 해당 기술을 어떻게 사용하면 좋은지에 대해 문서를 제공
+- 참고서 느낌 (수학의 정석)
+- BigQuery는 기능이 많고 발전이 오래된 제품이라 공식 문서에 자료가 많음
