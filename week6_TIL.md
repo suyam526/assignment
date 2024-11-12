@@ -56,9 +56,36 @@
     - JOIN한거에 또 JOIN 붙일 수 있음. 아래 사진에서 주황색 네모칸이 하나의 JOIN이고, 거기에다가 그 밑에 있는 LEFT JOIN을 한번 더 붙이는 것.
     ![SQL8](./image/week6/SQL8.png) <br/>
 
+![SQL9](./image/week6/SQL9.png) <br/>
+
+![SQL10](./image/week6/SQL10.png) <br/>
+
 
 ## 5-5. JOIN을 처음 공부할 때 헷갈렸던 부분
+![SQL11](./image/week6/SQL11.png) <br/>
+
+![SQL12](./image/week6/SQL12.png) <br/>
+- 데이터 요소가 빠짐없이 존재하는가?가 중요
+    - 전체 유저의 OO을 보고 싶은건지 주문한 유저들의 OO을 보고 싶은건지 -> 주문한 유저들의 OO가 보고 싶은거라면 Order Table 쓰면 됨. 반대로 주문 안한 유저들이 알고 싶은거라면 모든 user Table을 기준으로 하면 된다!
+
+![SQL13](./image/week6/SQL13.png) <br/>
+
+![SQL14](./image/week6/SQL14.png) <br/>
+
+![SQL15](./image/week6/SQL15.png) <br/>
 
 ## 5-6. JOIN 연습 문제 1~5번
+![SQL16](./image/week6/SQL16.png) <br/>
+
+![SQL15](./image/week6/SQL15.png) <br/>
+
+![SQL15](./image/week6/SQL15.png) <br/>
+
+![SQL15](./image/week6/SQL15.png) <br/>
+
+![SQL15](./image/week6/SQL15.png) <br/>
+
+
 
 ## 5-7. 정리
+![SQL21](./image/week6/SQL21.png) <br/>
