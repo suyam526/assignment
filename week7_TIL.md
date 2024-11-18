@@ -115,4 +115,11 @@ WITH문은 SELECT보다 위에, 쿼리 최상위에 위치
 ![SQL24](./image/week7/SQL24.png) <br/>
 - CASE WHEN 사용
 
-![SQL25](./image/week7/SQL25.png) <br/>
+![SQL26](./image/week7/SQL26.png) <br/>
+
+![SQL27](./image/week7/SQL27.png) <br/>
+
+![SQL28](./image/week7/SQL28.png) <br/>
+
+
+
