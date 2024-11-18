@@ -74,3 +74,44 @@ WITH문은 SELECT보다 위에, 쿼리 최상위에 위치
         - **도메인 특수성(규칙 등) 잘 파악**하기 
             - EX. 회사 정산 비율
 
+![SQL10](./image/week7/SQL10.png) <br/>
+
+![SQL11](./image/week7/SQL11.png) <br/>
+
+![SQL12](./image/week7/SQL12.png) <br/>
+1) 특정 user_id을 샘플로 두고 결과 확인해보고, 쿼리 결과가 동일한지 비교 확인 (샘플 1개에서 그치지 않고 3~4개 더 해보면 좋다)
+
+![SQL13](./image/week7/SQL13.png) <br/>
+
+2) 문법이 익숙하지 않을 때, 쉬운 데이터 만들어서 쿼리 자체가 올바른지 확인하기
+- 사진 참고해서 예시 데이터 생성하면 된다
+
+### 데이터 결과 검증 예시
+![SQL14](./image/week7/SQL14.png) <br/>
+
+![SQL15](./image/week7/SQL15.png) <br/>
+
+![SQL16](./image/week7/SQL16.png) <br/>
+
+![SQL17](./image/week7/SQL17.png) <br/>
+
+- 여기서 생각해볼 점 : user_id가 7인 유저는 battle_cnt가 4일까?
+
+![SQL18](./image/week7/SQL18.png) <br/>
+- 데이터 테이블 다시 확인해보니까 player1_id뿐만 아니라 player2_id도 있음.player2로서 배틀한 횟수도 쳐야하기 때문에 앞에서 정한건 틀릴 수도 있다는거.
+
+![SQL19](./image/week7/SQL19.png) <br/>
+
+![SQL20](./image/week7/SQL20.png) <br/>
+
+![SQL21](./image/week7/SQL21.png) <br/>
+- player1_id, player2_id 둘다 있는게 이슈가 될 수 있음..
+
+![SQL22](./image/week7/SQL22.png) <br/>
+- 그래서 player1, 2 구분 필요없는 통합 데이터를 만든다!
+
+![SQL23](./image/week7/SQL23.png) <br/>
+
+![SQL24](./image/week7/SQL24.png) <br/>
+
+![SQL25](./image/week7/SQL25.png) <br/>
