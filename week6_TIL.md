@@ -77,13 +77,13 @@
 ## 5-6. JOIN 연습 문제 1~5번
 ![SQL16](./image/week6/SQL16.png) <br/>
 
-![SQL15](./image/week6/SQL15.png) <br/>
+![SQL15](./image/week6/SQL17.png) <br/>
 
-![SQL15](./image/week6/SQL15.png) <br/>
+![SQL15](./image/week6/SQL18.png) <br/>
 
-![SQL15](./image/week6/SQL15.png) <br/>
+![SQL15](./image/week6/SQL19.png) <br/>
 
-![SQL15](./image/week6/SQL15.png) <br/>
+![SQL15](./image/week6/SQL20.png) <br/>
 
 
 
