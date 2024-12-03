@@ -23,3 +23,11 @@
 
 ![SQL9](./image/week8/SQL9.png) <br/>
 
+
+### 4번
+![SQL10](./image/week8/SQL10.png) <br/>
+
+- (1) winner_id, COUNT(승리 횟수)
+![SQL11](./image/week8/SQL11.png) <br/>
+
+
