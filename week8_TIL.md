@@ -16,8 +16,10 @@
 
 ![SQL1](./image/week8/SQL7.png) <br/>
 
+
+
+### 3번
 ![SQL1](./image/week8/SQL8.png) <br/>
 
-
-
+![SQL1](./image/week8/SQL9.png) <br/>
 
