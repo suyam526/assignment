@@ -61,4 +61,11 @@
 
 
 ### 7번
+![SQL19](./image/week8/SQL19.png) <br/>
+* 데이터 특징 :보유한 포켓몬
 
+![SQL20](./image/week8/SQL20.png) <br/>
+
+![SQL21](./image/week8/SQL21.png) <br/>
+
+- WITH문에서 정의한거 밑에서 호출까지 해줘야 오류 없이 잘 돌아간다!
