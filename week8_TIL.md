@@ -53,6 +53,12 @@
 
 ![SQL16](./image/week8/SQL16.png) <br/>
 ![SQL17](./image/week8/SQL17.png) <br/>
+
+![SQL18](./image/week8/SQL18.png) <br/>
 - pokemon_id => min level이 6, max level이 22, level_difference가 16
 - min level은 'MIN' 함수로
 - max level은 'MAX' 함수로
+
+
+### 7번
+
