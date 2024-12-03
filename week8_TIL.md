@@ -43,6 +43,16 @@
 
 ### 5번
 - (1) 트레이너가 보유한 포켓몬들의 attack, defense
-![SQL13](./image/week8/SQL13.png) <br/>
+![SQL13](./image/week8/SQL14.png) <br/>
 
 - 테이블 2개 합치고 싶을 땐 [테이블1] + [테이블2] -> 이렇게 '+' 쓰면 됨
+
+### 6번
+![SQL15](./image/week8/SQL15.png) <br/>
+* 데이터 특징 일단 없음
+
+![SQL16](./image/week8/SQL16.png) <br/>
+![SQL17](./image/week8/SQL17.png) <br/>
+- pokemon_id => min level이 6, max level이 22, level_difference가 16
+- min level은 'MIN' 함수로
+- max level은 'MAX' 함수로
